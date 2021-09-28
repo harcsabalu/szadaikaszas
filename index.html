@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name=”format-detection” content=”telephone=no”>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat|Cardo' rel='stylesheet' type='text/css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="flaticon/flaticon.css">
+    <link rel="icon" href="images/icon.png">
+    <title>Szadai kaszás</title>
+</head>
+<body>
+
+<header class="main_h sticky">
+    <nav>
+      <div class="row">   
+        <div class="mobile-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      <ul>
+        <li><a href=".services" class ="menu">Szolgáltatások</a></li>
+        <li><a href=".prices" class ="menu">Árak</a></li>
+        <li><a href=".contact" class ="menu">Kapcsolat</a></li>
+        <li><a href=".gallery" class ="menu">Galéria</a></li>
+      </ul>
+    </nav>
+
+  </div> <!-- / row -->
+
+</header>
+
+<div class="hero">
+
+  <div class="head">
+    <div class="textbox">
+      <h2>Üdvözöljök a szadai kaszás oldalán</h2>
+      <h1>Fűnyírás mindenkinek</h1>
+      <a href="#" class="button button2" onclick="btnFunc();return false;">Foglalás</a>
+    </div>
+  </div>
+
+</div>
+
+<div class="row content">
+  <section class="services">
+    <div class="container">
+      <div class="servbox">
+        <div class="cards">
+          <div class="items">
+
+            <div class="card">
+              <div class="centerize">
+                <div class="iconback">
+                  <span class="icon"><i class="flaticon-lawn-mower"></i></span>
+                </div>
+                <div class="text">
+                  <h3>Fűnyírás</h3>
+                  <p>Önkormányzati, ipari- és magáningatlanok, parkok, terek, sportpályák zöldterületeinek fűnyírása.</p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="centerize">
+                <div class="iconback">
+                  <span class="icon"><i class="flaticon-grass"></i></span>
+                </div>
+                <div class="text">
+                  <h3>Fűkaszálás</h3>
+                  <p>Ha terület a növényzetének magassága meghaladja a 30 centimétert, vagy a szárvastagság az 1 centimétert, fűnyírás helyett kaszálásra van szükség, melyet damilos fűkaszákkal végzünk.</p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="centerize">
+                <div class="iconback">
+                  <span class="icon"><i class="flaticon-fence"></i></span>
+                </div>
+                <div class="text">
+                  <h3>Kertgondozás</h3>
+                  <p>Kertek, telkek komplett időszaki vagy rendszeres karbantartása. Igény esetén a terület tisztitása, építkezésre történő előkészítése.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="infos">
+          <div class="back">
+            <span class="header">Szolgáltatások</span>
+            <h2>Akár nehéz terepen is</h2>
+            <p>Szolgáltatásaink akár nehezen megközelíthető helyeken is elérhetőek.</p>
+            <a href="#" class="button" onclick="btnFunc();return false;">Foglalás</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="prices">
+    <div class="container">
+      <table id="prices">
+        <tr>
+          <th>Szolgáltatás</th>
+          <th>Ár</th>
+          <th>Egyéb információ  </th>
+        </tr>
+        <tr>
+          <td>Fűnyírás fűnyírógéppel</td>
+          <td>15-20 Ft/m2</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>Fűnyírás fűnyírótraktorral</td>
+          <td>9-15 Ft/m2</td>
+          <td>Kizárólag 1000m2 felett</td>
+        </tr>
+        <tr>
+          <td>Fűkaszálás normál</td>
+          <td>12-20 Ft/m2</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>Fűkaszálás rézsűn</td>
+          <td>20-55 Ft/m2</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>Zöldhulladék elszállítás</td>
+          <td>3200 Ft/m3</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>Kertrendezés</td>
+          <td>Felmérés alapján</td>
+          <td>-</td>
+        </tr>
+      </table>
+      <div class="bottomText">
+        <p>A feltüntetett árak nem tartalmazzák az Áfát</p>
+      </div>
+      </div>
+  </section>
+  <section class="contact">
+    <div class="container">
+      <div class="box">
+        <div class="left">
+          <h2>Kapcsolat</h2>
+          <p>Ha bármi kérdése, kérése van lépjen velünk kapcsolatba</p>
+        </div>
+        <div class="right">
+          <span class="number">+36704377279</span>
+          <span class="number">info@szadaikaszas.hu</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="gallery">
+    <div class="container">
+      <div class="gallery-image">
+        <div class="img-box">
+          <img src="images/gallery1.JPG" alt="" />
+          <div class="transparent-box">
+          </div> 
+        </div>
+        <div class="img-box">
+          <img src="images/gallery2.JPG" alt="" />
+          <div class="transparent-box">
+          </div>
+        </div>
+        <div class="img-box">
+          <img src="images/gallery3.jpg" alt="" />
+          <div class="transparent-box">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<div class="footer">
+  <p>Taxioffice Kft. © 2012</p>
+</div>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
